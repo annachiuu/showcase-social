@@ -54,11 +54,13 @@ class ViewController: UIViewController {
                     } else {
                         print("Logged In! \(accessToken)")
                         
+                        
+                        let user = ["provider": accessToken.provider, "blah" : "test"]
+                        
+                        DataService.ds.createFirebaseUser(authData!.uid, user: user)
+                        
                         NSUserDefaults.standardUserDefaults().setValue(authData?.uid, forKey: UID_KEY)
                         self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
-                        //                            let user: [String: String]  = ["provider": accessToken.provider, "blah": "test"]
-                        //
-                        //                            DataService.ds.createFirebaseUser(authData!.uid, user:user)
                     }
                 })
             }
@@ -94,13 +96,18 @@ class ViewController: UIViewController {
             
             if LoginError != nil {
                 
+                if self.passwordField.text?.characters.count < 6 {
+                    self.showErrorAlert("Re-enter Password", msg: "Password must be at least 6 characters")
+                } else {
+                
                 print("INCORRECT EMAIL OR PASSWORD \(LoginError)")
                 self.showErrorAlert("Incorrect Password ", msg: "Please check if you have entered the correct password")
+                }
                 
             } else {
                 print("LOGGED IN \(authData)")
                 
-                let user: [String: String] = ["provider": "email", "blah": "test"]
+                let user: [String: String] = ["provider": "email", "blah2": "test2"]
                 DataService.ds.createFirebaseUser(authData!.uid, user: user)
                 
                 NSUserDefaults.standardUserDefaults().setValue(authData?.uid, forKey: UID_KEY)

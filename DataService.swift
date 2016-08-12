@@ -17,7 +17,8 @@ class DataService {
     static let ds = DataService()
     
     private var _REF_BASE = FIRDatabase.database().reference()
-    private var _REF_USERS = FIRDatabase.database().referenceFromURL("\(URL_BASE)")
+    private var _REF_USERS = FIRDatabase.database().referenceFromURL("\(URL_BASE)/users")
+    private var _REF_POSTS = FIRDatabase.database().referenceFromURL("\(URL_BASE)/posts")
     
     var REF_BASE: FIRDatabaseReference {
         return _REF_BASE
@@ -26,6 +27,11 @@ class DataService {
     var REF_USERS: FIRDatabaseReference {
         return _REF_USERS
     }
+    
+    var REF_POSTS: FIRDatabaseReference {
+        return _REF_POSTS
+    }
+    
     
     func createFirebaseUser(uid: String, user: Dictionary<String, String>) {
         //Here is gets the uid from a specific user
