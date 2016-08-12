@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B44F87C4C8C5FCE5AC00BDE /* Pods_first_social_media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A72653EFA7788DFF76E8B8B /* Pods_first_social_media.framework */; };
+		841BB3251D5AE21200D0860E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841BB3221D5AE21200D0860E /* FBSDKCoreKit.framework */; };
+		841BB3261D5AE21200D0860E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841BB3231D5AE21200D0860E /* FBSDKLoginKit.framework */; };
+		841BB3271D5AE21200D0860E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841BB3241D5AE21200D0860E /* FBSDKShareKit.framework */; };
+		841BB3301D5B0BEF00D0860E /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841BB32C1D5B0BEF00D0860E /* NotoSans-Bold.ttf */; };
+		841BB3311D5B0BEF00D0860E /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841BB32D1D5B0BEF00D0860E /* NotoSans-BoldItalic.ttf */; };
+		841BB3321D5B0BEF00D0860E /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841BB32E1D5B0BEF00D0860E /* NotoSans-Italic.ttf */; };
+		841BB3331D5B0BEF00D0860E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841BB32F1D5B0BEF00D0860E /* NotoSans-Regular.ttf */; };
+		841BB3371D5B0D9900D0860E /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BB3361D5B0D9900D0860E /* MaterialView.swift */; };
+		841BB33A1D5B0EDC00D0860E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BB3391D5B0EDC00D0860E /* Constants.swift */; };
+		841BB33C1D5B12CA00D0860E /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BB33B1D5B12CA00D0860E /* MaterialButton.swift */; };
+		841BB33E1D5B170500D0860E /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BB33D1D5B170500D0860E /* MaterialTextField.swift */; };
+		841BB3411D5BABA600D0860E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BB3401D5BABA600D0860E /* DataService.swift */; };
 		84B364E11D5AAFB800883361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B364E01D5AAFB800883361 /* AppDelegate.swift */; };
 		84B364E31D5AAFB800883361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B364E21D5AAFB800883361 /* ViewController.swift */; };
 		84B364E61D5AAFB800883361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B364E41D5AAFB800883361 /* Main.storyboard */; };
 		84B364E81D5AAFB800883361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B364E71D5AAFB800883361 /* Assets.xcassets */; };
 		84B364EB1D5AAFB800883361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B364E91D5AAFB800883361 /* LaunchScreen.storyboard */; };
+		84B364F31D5AAFF500883361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84B364F21D5AAFF500883361 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A72653EFA7788DFF76E8B8B /* Pods_first_social_media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_first_social_media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		677FCE1EA7998440FAD697BD /* Pods-first-social-media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first-social-media.debug.xcconfig"; path = "Pods/Target Support Files/Pods-first-social-media/Pods-first-social-media.debug.xcconfig"; sourceTree = "<group>"; };
+		841BB3221D5AE21200D0860E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.14.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		841BB3231D5AE21200D0860E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.14.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		841BB3241D5AE21200D0860E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.14.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		841BB32C1D5B0BEF00D0860E /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Bold.ttf"; path = "../../Downloads/NotoSans-unhinted/NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		841BB32D1D5B0BEF00D0860E /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-BoldItalic.ttf"; path = "../../Downloads/NotoSans-unhinted/NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		841BB32E1D5B0BEF00D0860E /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Italic.ttf"; path = "../../Downloads/NotoSans-unhinted/NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		841BB32F1D5B0BEF00D0860E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "../../Downloads/NotoSans-unhinted/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		841BB3361D5B0D9900D0860E /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		841BB3391D5B0EDC00D0860E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		841BB33B1D5B12CA00D0860E /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		841BB33D1D5B170500D0860E /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		841BB3401D5BABA600D0860E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		84B364DD1D5AAFB700883361 /* first-social-media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first-social-media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B364E01D5AAFB800883361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84B364E21D5AAFB800883361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B364E21D5AAFB800883361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "first-social-media/ViewController.swift"; sourceTree = "<group>"; };
 		84B364E51D5AAFB800883361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B364E71D5AAFB800883361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B364EA1D5AAFB800883361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B364EC1D5AAFB800883361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B364F21D5AAFF500883361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8CC49084D4A78BF2983DB8C /* Pods-first-social-media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-first-social-media.release.xcconfig"; path = "Pods/Target Support Files/Pods-first-social-media/Pods-first-social-media.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841BB3271D5AE21200D0860E /* FBSDKShareKit.framework in Frameworks */,
+				0B44F87C4C8C5FCE5AC00BDE /* Pods_first_social_media.framework in Frameworks */,
+				841BB3251D5AE21200D0860E /* FBSDKCoreKit.framework in Frameworks */,
+				841BB3261D5AE21200D0860E /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54189BD7DAAEBAA48B5BA00A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841BB3221D5AE21200D0860E /* FBSDKCoreKit.framework */,
+				841BB3231D5AE21200D0860E /* FBSDKLoginKit.framework */,
+				841BB3241D5AE21200D0860E /* FBSDKShareKit.framework */,
+				1A72653EFA7788DFF76E8B8B /* Pods_first_social_media.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841BB3211D5AB38C00D0860E /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		841BB3281D5AFAA100D0860E /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				841BB32C1D5B0BEF00D0860E /* NotoSans-Bold.ttf */,
+				841BB32D1D5B0BEF00D0860E /* NotoSans-BoldItalic.ttf */,
+				841BB32E1D5B0BEF00D0860E /* NotoSans-Italic.ttf */,
+				841BB32F1D5B0BEF00D0860E /* NotoSans-Regular.ttf */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		841BB3291D5AFAAA00D0860E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84B364E21D5AAFB800883361 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		841BB32A1D5AFAB100D0860E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				841BB3361D5B0D9900D0860E /* MaterialView.swift */,
+				841BB33B1D5B12CA00D0860E /* MaterialButton.swift */,
+				841BB33D1D5B170500D0860E /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		841BB32B1D5AFAB400D0860E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		841BB3381D5B0ECD00D0860E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				841BB3391D5B0EDC00D0860E /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		841BB33F1D5BAB8B00D0860E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				841BB3401D5BABA600D0860E /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		84B364D41D5AAFB700883361 = {
 			isa = PBXGroup;
 			children = (
+				841BB33F1D5BAB8B00D0860E /* Services */,
+				841BB3381D5B0ECD00D0860E /* Util */,
+				841BB32B1D5AFAB400D0860E /* Model */,
+				841BB32A1D5AFAB100D0860E /* View */,
+				841BB3291D5AFAAA00D0860E /* Controller */,
+				841BB3281D5AFAA100D0860E /* Resourses */,
+				841BB3211D5AB38C00D0860E /* SDK */,
 				84B364DF1D5AAFB800883361 /* first-social-media */,
 				84B364DE1D5AAFB700883361 /* Products */,
+				86F35078A8563A2B0F14ECD8 /* Pods */,
+				54189BD7DAAEBAA48B5BA00A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +168,22 @@
 			isa = PBXGroup;
 			children = (
 				84B364E01D5AAFB800883361 /* AppDelegate.swift */,
-				84B364E21D5AAFB800883361 /* ViewController.swift */,
+				84B364F21D5AAFF500883361 /* GoogleService-Info.plist */,
 				84B364E41D5AAFB800883361 /* Main.storyboard */,
 				84B364E71D5AAFB800883361 /* Assets.xcassets */,
 				84B364E91D5AAFB800883361 /* LaunchScreen.storyboard */,
 				84B364EC1D5AAFB800883361 /* Info.plist */,
 			);
 			path = "first-social-media";
+			sourceTree = "<group>";
+		};
+		86F35078A8563A2B0F14ECD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				677FCE1EA7998440FAD697BD /* Pods-first-social-media.debug.xcconfig */,
+				D8CC49084D4A78BF2983DB8C /* Pods-first-social-media.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B364EF1D5AAFB800883361 /* Build configuration list for PBXNativeTarget "first-social-media" */;
 			buildPhases = (
+				1713D4F3C23E1F4314E8A656 /* [CP] Check Pods Manifest.lock */,
 				84B364D91D5AAFB700883361 /* Sources */,
 				84B364DA1D5AAFB700883361 /* Frameworks */,
 				84B364DB1D5AAFB700883361 /* Resources */,
+				0EE00453D030A015F711CD30 /* [CP] Embed Pods Frameworks */,
+				C210C712FE2CA137BC9CAAB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +248,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841BB3311D5B0BEF00D0860E /* NotoSans-BoldItalic.ttf in Resources */,
 				84B364EB1D5AAFB800883361 /* LaunchScreen.storyboard in Resources */,
+				84B364F31D5AAFF500883361 /* GoogleService-Info.plist in Resources */,
 				84B364E81D5AAFB800883361 /* Assets.xcassets in Resources */,
+				841BB3331D5B0BEF00D0860E /* NotoSans-Regular.ttf in Resources */,
+				841BB3321D5B0BEF00D0860E /* NotoSans-Italic.ttf in Resources */,
+				841BB3301D5B0BEF00D0860E /* NotoSans-Bold.ttf in Resources */,
 				84B364E61D5AAFB800883361 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE00453D030A015F711CD30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-first-social-media/Pods-first-social-media-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1713D4F3C23E1F4314E8A656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C210C712FE2CA137BC9CAAB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-first-social-media/Pods-first-social-media-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84B364D91D5AAFB700883361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841BB33E1D5B170500D0860E /* MaterialTextField.swift in Sources */,
+				841BB3371D5B0D9900D0860E /* MaterialView.swift in Sources */,
+				841BB3411D5BABA600D0860E /* DataService.swift in Sources */,
 				84B364E31D5AAFB800883361 /* ViewController.swift in Sources */,
 				84B364E11D5AAFB800883361 /* AppDelegate.swift in Sources */,
+				841BB33A1D5B0EDC00D0860E /* Constants.swift in Sources */,
+				841BB33C1D5B12CA00D0860E /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +431,14 @@
 		};
 		84B364F01D5AAFB800883361 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677FCE1EA7998440FAD697BD /* Pods-first-social-media.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/first-social-media",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = "first-social-media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chiu.first-social-media";
@@ -259,8 +448,14 @@
 		};
 		84B364F11D5AAFB800883361 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CC49084D4A78BF2983DB8C /* Pods-first-social-media.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/first-social-media",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = "first-social-media/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Chiu.first-social-media";
@@ -287,6 +482,7 @@
 				84B364F11D5AAFB800883361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
